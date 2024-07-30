@@ -220,7 +220,7 @@ Delete a department from the Departments table that is being referenced by the E
 Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
 
 
-SQL_Tasks 5: 
+# SQL_Tasks 5: 
  
 - Select the first name, last name, and salary of the top 3 employees with the highest salaries.
 - Select the first name, last name, and salary of the top 3 employees with the lowest salaries.
