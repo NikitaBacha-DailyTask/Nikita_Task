@@ -60,8 +60,7 @@ Task:
    - Drop the students table from the school_management database.
    - Drop the school_management database
   
-# Note: Use attach above PDF/DOC/file for your references or Practicle knowledge.
-# https://www.w3schools.com/sql/
+# Note: Use attach above PDF/DOC/file for your references or Practicle knowledge. (https://www.w3schools.com/sql/)
 
 # Table Details
 Table Name: Employees
