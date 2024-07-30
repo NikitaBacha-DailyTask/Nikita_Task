@@ -121,6 +121,7 @@ Email: VARCHAR(100), Not Null
 Salary: INT, Not Null
 Department: VARCHAR(50)
 Sample Records
+
 Employees Table
 
 EmployeeID: 1, FirstName: 'John', LastName: 'Doe', Email: 'john.doe@company.com', Salary: 60000, Department: 'Marketing'
@@ -158,7 +159,7 @@ Update the DepartmentID of an existing employee to a value that does not exist i
 # Table Definitions
 - Employees Table
 
-EmployeeID: INT, Primary Key
+-- EmployeeID: INT, Primary Key
 FirstName: VARCHAR(50), Not Null
 LastName: VARCHAR(50), Not Null
 Email: VARCHAR(100), Not Null, Unique
@@ -166,17 +167,17 @@ Salary: INT, Not Null
 DepartmentID: INT
 Departments Table
 
-DepartmentID: INT, Primary Key
+-- DepartmentID: INT, Primary Key
 DepartmentName: VARCHAR(50), Not Null
 
-Projects Table
+-- Projects Table
 
 ProjectID: INT, Primary Key
 ProjectName: VARCHAR(100), Not Null
 DepartmentID: INT, Foreign Key referencing Departments(DepartmentID)
 Sample Data
 
-Departments Table
+1. Departments Table
 
 DepartmentID: 1, DepartmentName: 'Marketing'
 DepartmentID: 2, DepartmentName: 'Sales'
@@ -184,7 +185,7 @@ DepartmentID: 3, DepartmentName: 'IT'
 DepartmentID: 4, DepartmentName: 'Finance'
 DepartmentID: 5, DepartmentName: 'HR'
 
-Employees Table
+2. Employees Table
 
 EmployeeID: 1, FirstName: 'John', LastName: 'Doe', Email: 'john.doe@company.com', Salary: 60000, DepartmentID: 1
 EmployeeID: 2, FirstName: 'Jane', LastName: 'Smith', Email: 'jane.smith@company.com', Salary: 75000, DepartmentID: 2
@@ -193,7 +194,7 @@ EmployeeID: 4, FirstName: 'Emily', LastName: 'Williams', Email: 'emily.williams@
 EmployeeID: 5, FirstName: 'David', LastName: 'Brown', Email: 'david.brown@company.com', Salary: 65000, DepartmentID: 2
 EmployeeID: 6, FirstName: 'Sarah', LastName: 'Davis', Email: 'sarah.davis@company.com', Salary: 90000, DepartmentID: 3
 
-Projects Table
+3. Projects Table
 
 ProjectID: 1, ProjectName: 'Project A', DepartmentID: 1
 ProjectID: 2, ProjectName: 'Project B', DepartmentID: 2
