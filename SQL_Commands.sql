@@ -48,8 +48,8 @@ INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 */
 
-INSERT INTO students VALUES(1,"Rahul",19),
-(2,"Nikita",22);
+INSERT INTO students VALUES(1,"Ram",21),
+(2,"Shamam",21);
 
 # It is DQL command used to select the column, row from the table
 SELECT *FROM students;
