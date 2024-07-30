@@ -1,5 +1,4 @@
 # Nikita_Task
-SQL Commands (create, insert, select ,alter, etc.)
 
 # SQL_Task1
 
