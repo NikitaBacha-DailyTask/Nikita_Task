@@ -108,7 +108,7 @@ Delete a department from the Departments table that is being referenced by the E
 Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
 
 
-# Task 3 and Task 4
+# SQL_Task 3 
 # Table Details
 Table Name: Employees
 
@@ -154,7 +154,7 @@ Delete a department from the Departments table that is being referenced by the E
 
 Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
 
-
+# SQL_Task 4
 # Table Definitions
 Employees Table
 
@@ -218,3 +218,14 @@ Attempt to insert a duplicate email address into the Employees table and observe
 Delete a department from the Departments table that is being referenced by the Employees table and observe the foreign key constraint violation.
 
 Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
+
+
+SQL_Tasks 5: 
+ 
+- Select the first name, last name, and salary of the top 3 employees with the highest salaries.
+- Select the first name, last name, and salary of the top 3 employees with the lowest salaries.
+- Select the first name, last name, and salary of the employee with the 2nd highest salary.
+- Select the first name, last name, and salary of the employee with the 2nd lowest salary.
+- Select the first name, last name, and salary of the employee with the 3rd highest salary.
+- Select the first name, last name, and salary of the employee with the 3rd lowest salary.
+- Select the first name, last name, email, and salary of employees with a salary between 65000 and 80000, ordered by their first name in descending order, and limit the result to 3 rows.
