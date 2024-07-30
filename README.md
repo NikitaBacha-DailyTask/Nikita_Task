@@ -63,17 +63,17 @@ Task:
 # Note: Use attach above PDF/DOC/file for your references or Practicle knowledge. (https://www.w3schools.com/sql/)
 
 # Table Details
-Table Name: Employees
-
-Columns:
-
+- Table Name: Employees
+- Columns:
 EmployeeID: INT, Primary Key
 FirstName: VARCHAR(50), Not Null
 LastName: VARCHAR(50), Not Null
 Email: VARCHAR(100), Not Null
 Salary: INT, Not Null
 Department: VARCHAR(50)
-Sample Records
+
+- Sample Records
+
 Employees Table
 
 EmployeeID: 1, FirstName: 'John', LastName: 'Doe', Email: 'john.doe@company.com', Salary: 60000, Department: 'Marketing'
@@ -88,24 +88,17 @@ EmployeeID: 9, FirstName: 'Daniel', LastName: 'Anderson', Email: 'daniel.anderso
 EmployeeID: 10, FirstName: 'Ashley', LastName: 'Taylor', Email: 'ashley.taylor@company.com', Salary: 58000, Department: 'Sales'
 EmployeeID: 11, FirstName: 'William', LastName: 'Brown', Email: 'william.brown@company.com', Salary: 78000, Department: 'Marketing'
 EmployeeID: 12, FirstName: 'Sophia', LastName: 'Davis', Email: 'sophia.davis@company.com', Salary: 62000, Department: 'HR'
-Practice Questions for Constraints, Primary Key, and Foreign Key
-Create a constraint to ensure that the salary of an employee is greater than 0.
 
-Create a foreign key constraint in the Employees table to reference the DepartmentID in the Departments table.
-
-Create a unique constraint on the Email column in the Employees table.
-
-Create a primary key constraint on the DepartmentID column in the Departments table.
-
-Create a foreign key constraint in the Projects table to reference the DepartmentID in the Departments table.
-
-Insert a new employee with a DepartmentID that does not exist in the Departments table and observe the foreign key constraint violation.
-
-Attempt to insert a duplicate email address into the Employees table and observe the unique constraint violation.
-
-Delete a department from the Departments table that is being referenced by the Employees table and observe the foreign key constraint violation.
-
-Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
+- Practice Questions for Constraints, Primary Key, and Foreign Key
+   - Create a constraint to ensure that the salary of an employee is greater than 0.
+   - Create a foreign key constraint in the Employees table to reference the DepartmentID in the Departments table.
+   - Create a unique constraint on the Email column in the Employees table. 
+   - Create a primary key constraint on the DepartmentID column in the Departments table.
+   - Create a foreign key constraint in the Projects table to reference the DepartmentID in the Departments table.
+   - Insert a new employee with a DepartmentID that does not exist in the Departments table and observe the foreign key constraint violation.
+   - Attempt to insert a duplicate email address into the Employees table and observe the unique constraint violation.
+   - Delete a department from the Departments table that is being referenced by the Employees table and observe the foreign key constraint violation.
+   - Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
 
 
 # SQL_Task 3 
@@ -136,23 +129,16 @@ EmployeeID: 9, FirstName: 'Daniel', LastName: 'Anderson', Email: 'daniel.anderso
 EmployeeID: 10, FirstName: 'Ashley', LastName: 'Taylor', Email: 'ashley.taylor@company.com', Salary: 58000, Department: 'Sales'
 EmployeeID: 11, FirstName: 'William', LastName: 'Brown', Email: 'william.brown@company.com', Salary: 78000, Department: 'Marketing'
 EmployeeID: 12, FirstName: 'Sophia', LastName: 'Davis', Email: 'sophia.davis@company.com', Salary: 62000, Department: 'HR'
-Practice Questions for Constraints, Primary Key, and Foreign Key
-Create a constraint to ensure that the salary of an employee is greater than 0.
 
-Create a foreign key constraint in the Employees table to reference the DepartmentID in the Departments table.
-
+- Practice Questions for Constraints, Primary Key, and Foreign Key
+    - Create a constraint to ensure that the salary of an employee is greater than 0.
+    - Create a foreign key constraint in the Employees table to reference the DepartmentID in the Departments table.
 Create a unique constraint on the Email column in the Employees table.
-
 Create a primary key constraint on the DepartmentID column in the Departments table.
-
 Create a foreign key constraint in the Projects table to reference the DepartmentID in the Departments table.
-
 Insert a new employee with a DepartmentID that does not exist in the Departments table and observe the foreign key constraint violation.
-
 Attempt to insert a duplicate email address into the Employees table and observe the unique constraint violation.
-
 Delete a department from the Departments table that is being referenced by the Employees table and observe the foreign key constraint violation.
-
 Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
 
 # SQL_Task 4
