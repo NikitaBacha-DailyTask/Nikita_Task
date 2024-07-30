@@ -156,7 +156,7 @@ Update the DepartmentID of an existing employee to a value that does not exist i
 
 # SQL_Task 4
 # Table Definitions
-Employees Table
+- Employees Table
 
 EmployeeID: INT, Primary Key
 FirstName: VARCHAR(50), Not Null
