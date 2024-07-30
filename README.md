@@ -30,8 +30,6 @@ DROP TABLE - deletes a table
 CREATE INDEX - creates an index (search key)
 DROP INDEX - deletes an index
 
-# Note: Use attach above PDF/DOC/file for your references or Practicle knowledge.
-
 # SQL_Task1
 
 - Create a database with a table named students.
@@ -54,7 +52,9 @@ Task:
 3. Insert Data into Tables
    - Insert at least 3 records into the students table.
    - Insert at least 5 records into the courses table.
-
+   - 
+# Note: Use attach above PDF/DOC/file for your references or Practicle knowledge.
+# https://www.w3schools.com/sql/
 4. Query Data
    - Write a SELECT statement to retrieve all students' first names, last names, and email addresses.
  
