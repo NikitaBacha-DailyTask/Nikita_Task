@@ -35,7 +35,7 @@ DROP INDEX - deletes an index
 # Note: Use attach above PDF/DOC/file for your references or Practicle knowledge.
 
 
-# SQL_Task2.
+# SQL_Task2
 SQL Commands (create, insert, select ,alter, etc.)
 Task: 
 1. Create a Database and Tables
@@ -58,6 +58,6 @@ Task:
 4. Query Data
    - Write a SELECT statement to retrieve all students' first names, last names, and email addresses.
  
-6. Drop Objects
+5. Drop Objects
    - Drop the students table from the school_management database.
    - Drop the school_management database
