@@ -52,12 +52,13 @@ Task:
 3. Insert Data into Tables
    - Insert at least 3 records into the students table.
    - Insert at least 5 records into the courses table.
-   - 
-# Note: Use attach above PDF/DOC/file for your references or Practicle knowledge.
-# https://www.w3schools.com/sql/
+     
 4. Query Data
    - Write a SELECT statement to retrieve all students' first names, last names, and email addresses.
  
 5. Drop Objects
    - Drop the students table from the school_management database.
    - Drop the school_management database
+  
+# Note: Use attach above PDF/DOC/file for your references or Practicle knowledge.
+# https://www.w3schools.com/sql/
