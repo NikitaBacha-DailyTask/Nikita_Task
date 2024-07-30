@@ -133,13 +133,13 @@ EmployeeID: 12, FirstName: 'Sophia', LastName: 'Davis', Email: 'sophia.davis@com
 - Practice Questions for Constraints, Primary Key, and Foreign Key
     - Create a constraint to ensure that the salary of an employee is greater than 0.
     - Create a foreign key constraint in the Employees table to reference the DepartmentID in the Departments table.
-Create a unique constraint on the Email column in the Employees table.
-Create a primary key constraint on the DepartmentID column in the Departments table.
-Create a foreign key constraint in the Projects table to reference the DepartmentID in the Departments table.
-Insert a new employee with a DepartmentID that does not exist in the Departments table and observe the foreign key constraint violation.
-Attempt to insert a duplicate email address into the Employees table and observe the unique constraint violation.
-Delete a department from the Departments table that is being referenced by the Employees table and observe the foreign key constraint violation.
-Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
+    - Create a unique constraint on the Email column in the Employees table.
+    - Create a primary key constraint on the DepartmentID column in the Departments table.
+    - Create a foreign key constraint in the Projects table to reference the DepartmentID in the Departments table.
+    - Insert a new employee with a DepartmentID that does not exist in the Departments table and observe the foreign key constraint violation.
+    - Attempt to insert a duplicate email address into the Employees table and observe the unique constraint violation.
+    - Delete a department from the Departments table that is being referenced by the Employees table and observe the foreign key constraint violation.
+    - Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
 
 # SQL_Task 4
 # Table Definitions
@@ -187,24 +187,17 @@ ProjectID: 2, ProjectName: 'Project B', DepartmentID: 2
 ProjectID: 3, ProjectName: 'Project C', DepartmentID: 3
 ProjectID: 4, ProjectName: 'Project D', DepartmentID: 4
 ProjectID: 5, ProjectName: 'Project E', DepartmentID: 5
-Practice Questions
-Create a constraint to ensure that the salary of an employee is greater than 0.
 
-Create a foreign key constraint in the Employees table to reference the DepartmentID in the Departments table.
-
-Create a unique constraint on the Email column in the Employees table.
-
-Create a primary key constraint on the DepartmentID column in the Departments table.
-
-Create a foreign key constraint in the Projects table to reference the DepartmentID in the Departments table.
-
-Insert a new employee with a DepartmentID that does not exist in the Departments table and observe the foreign key constraint violation.
-
-Attempt to insert a duplicate email address into the Employees table and observe the unique constraint violation.
-
-Delete a department from the Departments table that is being referenced by the Employees table and observe the foreign key constraint violation.
-
-Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
+- Practice Questions
+  - Create a constraint to ensure that the salary of an employee is greater than 0.
+  - Create a foreign key constraint in the Employees table to reference the DepartmentID in the Departments table.
+  - Create a unique constraint on the Email column in the Employees table.
+  - Create a primary key constraint on the DepartmentID column in the Departments table.
+  - Create a foreign key constraint in the Projects table to reference the DepartmentID in the Departments table.
+  - Insert a new employee with a DepartmentID that does not exist in the Departments table and observe the foreign key constraint violation.
+  - Attempt to insert a duplicate email address into the Employees table and observe the unique constraint violation.
+  - Delete a department from the Departments table that is being referenced by the Employees table and observe the foreign key constraint violation.
+  - Update the DepartmentID of an existing employee to a value that does not exist in the Departments table and observe the foreign key constraint violation.
 
 
 # Practice Questions : 
